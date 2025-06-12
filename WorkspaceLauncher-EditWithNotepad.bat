@@ -17,6 +17,9 @@
 :: While we're at it, I can't recommend enough, having the tool Everything 1.5 Alpha installed.
 
 
+exit
+:: ^ This command prevents anything below it from being executed, because the example paths won't work.
+
 
 :: [1] Set paths ------------------------------------------------------------------------------------------------
 
@@ -102,11 +105,11 @@ start "" "%blenderPath%"
 :: 1. Here I’m launching Blender. If you want to open under a project, set the variable to the path of the .blend project file
 
 
--------------------------------------------------------------------------------------------------------------------
+:: -------------------------------------------------------------------------------------------------------------------
 :: You may delete all this stuff (leave @echo off if you don't want to see the commands when launching your workspace)
 :: Or you can keep this file as a reference. Remember to rename your WorkspaceLauncher text file to ".bat" at the end
 :: Then, you can place your WorkspaceLauncher.bat file on your desktop or in your project folder
--------------------------------------------------------------------------------------------------------------------
+:: -------------------------------------------------------------------------------------------------------------------
 
 
 :: Some other examples...
@@ -126,7 +129,7 @@ set "scriptPath=C:\Users\yourUserName\Scripts\run_this.py"
 start "" "%pythonPath%" "%scriptPath%"
 
 
--------
+:: -------
 
 :: Workflow example:
 
@@ -140,4 +143,4 @@ start "" "%pythonPath%" "%scriptPath%"
 
 :: 5. Place the .bat workspace launcher wherever fits better. 
 
-:: 6. You can always Right Click > Edit with Notepad on your Launcher.bat to edit it. If it causes errors, add to the end the file the word: pause
+:: 6. You can always Right Click > Edit with Notepad on your Launcher.bat to edit it
