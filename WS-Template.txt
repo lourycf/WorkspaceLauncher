@@ -1,0 +1,7 @@
+@echo off
+
+
+set "projectPath="
+
+
+start "" explorer "%projectPath%"
