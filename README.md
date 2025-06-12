@@ -1,4 +1,4 @@
-The content under this line is the same as the WorkspaceLauncher-EditWithNotepad.bat file. So you dont even have to download it, but rather just copy and paste.
+The content under this line is the same as the WorkspaceLauncher-EditWithNotepad.bat file. So you dont even have to download it, but rather just copy and paste to a notepad.
 
 ```
 @echo off
