@@ -1,5 +1,6 @@
-The content under this line is the same as the WorkspaceLauncher-EditWithNotepad.bat file:
+The content under this line is the same as the WorkspaceLauncher-EditWithNotepad.bat file. So you dont even have to download it, but rather just copy and paste.
 
+```
 @echo off
 
 :: ==================
@@ -146,3 +147,4 @@ start "" "%pythonPath%" "%scriptPath%"
 :: 5. Place the .bat workspace launcher wherever fits better. 
 
 :: 6. You can always Right Click > Edit with Notepad on your Launcher.bat to edit it
+```
